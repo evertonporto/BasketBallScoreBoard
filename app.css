@@ -15,6 +15,7 @@ body{
     align-items: center;
     border: 6px solid white;
     border-radius: 2rem;
+    flex-wrap: wrap;
     
 }
 
@@ -49,4 +50,16 @@ button{
     margin-top: 2rem ;
     border: 1px solid white;
     
+}
+
+.reset{
+    margin-top: 20rem;
+    
+}
+
+#reset{
+    font-size: 15px;
+    background-color: black;
+    width: 8rem;
+    color: red;
 }

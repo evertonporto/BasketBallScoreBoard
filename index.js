@@ -33,3 +33,10 @@ function add3G() {
     gpointsEl.innerHTML = gScore
 }
 
+function reset() {
+    hScore = 0
+    gScore = 0
+    gpointsEl.innerHTML = gScore
+    pointsEl.innerHTML = hScore
+
+}
