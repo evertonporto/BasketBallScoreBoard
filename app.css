@@ -1,0 +1,52 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+body{
+    display: block;
+    background-color: rgb(2, 63, 63);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 6px solid white;
+    border-radius: 2rem;
+    
+}
+
+h1{
+    color: white;
+    font-weight: bold;  
+    flex-wrap: wrap;
+    padding: 2.5rem;
+}
+
+.home, .guest{
+    padding: 2rem;
+    text-align: center;
+}
+
+p{      
+    display: block;
+    background-color: black;
+    color: red;
+    text-align: center;
+    padding:3rem;
+    border-radius: .5rem;
+    font-size: 2em;
+}
+
+button{
+    padding: 1rem;
+    margin-left: .5rem;
+    background-color: transparent;
+    color: white;
+    border-radius:.5rem;
+    margin-top: 2rem ;
+    border: 1px solid white;
+    
+}
